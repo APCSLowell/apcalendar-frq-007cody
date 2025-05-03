@@ -59,7 +59,7 @@ public class APCalendar
   {
     int first = firstDayOfYear(year);
     int n = dayOfYear(month, day, year) - 1;
-    int d = first + n+ %7;
+    int d = first + n % 7;
     return d;
   }
 }
